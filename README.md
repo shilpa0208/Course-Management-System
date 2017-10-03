@@ -2,7 +2,7 @@
 
 Simple RESTful Web standalone application developed using Spring Boot.
 
-##Technologies Used:
+## Technologies Used:
 * Spring Boot
 * Spring MVC
 * Spring Data JPA
@@ -10,7 +10,7 @@ Simple RESTful Web standalone application developed using Spring Boot.
 * Apache Derby
 * Maven
 
-##Description
+## Description
 The Course Management System consists of a set of Topics which offer specific courses. The entities are Topic and Course. Each topic can have multiple courses under it. This is realised using Spring Data JPA to map to the database. HTTP methods used to access the end points specifies what we do with the resource that is accessed. A set of URI's are mapped with the controller which expose the end points.
 
 The API exposes the end points using the following URI's:
